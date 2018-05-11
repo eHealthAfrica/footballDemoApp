@@ -1,0 +1,12 @@
+.banner {
+  background: url('../images/background.jpg');
+  background-size: cover;
+  background-position-y: -150px;
+}
+
+@media (min-width: 768px) {
+  .modal-xl {
+    width: 90%;
+   max-width:1300px;
+  }
+}
