@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>w00tball</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css">  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>  
+  <script src="script.js"></script>
+
+  <style>
+  .jumbotron { 
+      background-color: #688EE8;
+      color: #ffffff;
+  }
+  </style>
+
+</head>
+
+
+<body>
+  <div class="jumbotron text-center">
+    <h1>w00tball</h1> 
+    <p>It's w00tball time!</p> 
+  </div>
+
+  <div id="compDiv" class="container">
+    <h2>Competitions</h2>
+    <table id="compTable" class="table table-hover"></table>
+  </div>
+
+  <div id="leagueDiv">
+    <div id="backBtn">
+      <a class="btn btn-info btn-lg">
+        <span class="glyphicon glyphicon-arrow-left"></span> Back
+      </a>
+    </div>
+
+    <div class="col-xs-6">
+      <h2 class="sub-header">League Table</h2>
+      <div id="leagueTableDiv" class="table-responsive">        
+        <table id="leagueTableTable" class="table table-striped"></table>
+      </div>
+    </div>
+
+    <div class="col-xs-6">
+      <h2 class="sub-header">Fixtures</h2>
+      <div id="fixturesDiv" class="table-responsive">
+        <table id="fixturesTable" class="table table-striped"></table>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+
+</html>
