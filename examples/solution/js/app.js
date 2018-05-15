@@ -160,7 +160,7 @@ function request (endpoint) {
     method: 'GET',
     headers: {
       'content-type': 'application/json',
-      'X-Auth-Token': 'd3de6ad724294f7782c57f2e9fda5aab'
+      'X-Auth-Token': '<INSERT-TOKEN-HERE>'
     }
   })
 }
