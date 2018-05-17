@@ -1,0 +1,12 @@
+<div id="legueItem" class="card mb-4">
+    <div class="card-body">
+        <h5 class="card-title primary">' + element.caption + '</h5>
+        <p class="card-text"> # of Games: ' + element.numberOfGames + '</p>
+        <p class="card-text"> # of Matches: ' + element.numberOfMatchdays + '</p>
+        <p class="card-text"># of Teams: ' + element.numberOfTeams + '</p>
+        <p class="card-text"><small class="text-muted">Current Match Played: '+ element.currentMatchday +'</small></p>
+        <a href="'+element._links.fixtures.href +'" data-toggle="modal" data-target="#modelId" class="btn btn-outline-primary">Fixtures</a>
+        <a href="'+element._links.teams.href +'" data-toggle="modal" data-target="#modelId" class="btn btn-outline-secondary">Teams</a>
+        <a href="'+element._links.leagueTable.href +'" class="btn btn-outline-info" data-toggle="modal" data-target="#modelId">Tables</a>
+    </div>
+</div>
