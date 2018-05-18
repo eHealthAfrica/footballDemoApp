@@ -46,7 +46,7 @@ function showFixtures () {
     { data: 'status', title: 'Status' }
   ]
 
-  getData('fixtures/', 'fixtues').then(function (items) {
+  getData('fixtures/', 'fixtures').then(function (items) {
     createTableWithData(columnData, items)
   })
 }
