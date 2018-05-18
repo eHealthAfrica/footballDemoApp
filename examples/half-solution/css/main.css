@@ -1,0 +1,10 @@
+.banner {
+  background: url('../images/background.jpg');
+  background-size: cover;
+  background-position-y: -150px;
+}
+
+.banner-content {
+  background: black;
+  color: white;
+}
