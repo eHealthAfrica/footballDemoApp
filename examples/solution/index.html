@@ -19,44 +19,37 @@
           <p class="lead font-weight-normal banner-content">
             Welcome to a simple footy app, that shows competitions, fixtures, leagues and teams
           </p>
+          <a class="btn btn-info" href="#" onClick="showFixtures()">Show Fixtures</a>
         </div>
       </div>
 
-      <div class="row h-25">
-          <div class="col-sm-6">
-            <div class="card h-100 text-center" id="competitionsCard">
-              <div class="card-body">
-                <h5 class="card-title align-middle">Competitions</h5>
+      <div class="container-fluid p-3">
+          <div class="progress" id="progressBar">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+              Loading...
+            </div>
+          </div>
+        <div id="competitions" class="row text-center"></div>
+      </div>
+
+      <div class="modal fade w-100" id="modal" tabindex="-1" role="dialog"  aria-hidden="true">
+          <div class="modal-dialog modal-xl w-100">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="modalTitle"></h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+
+              <div class="modal-body container-fluid mx-auto" id="modalBody">
+                <p id="modalLoadingIndicator">Loading...</p>
+                <div id="items" class="row text-center"></div>
+                <table id="table"></table>
               </div>
             </div>
           </div>
-          <div class="col-sm-6">
-              <div class="card h-100 text-center" id="fixturesCard">
-                <div class="card-body">
-                  <h5 class="card-title align-middle">Fixtures</h5>
-                </div>
-              </div>
-            </div>
         </div>
-
-        <div class="modal fade w-100" id="modal" tabindex="-1" role="dialog"  aria-hidden="true">
-            <div class="modal-dialog modal-xl w-100">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="modalTitle"></h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-
-                <div class="modal-body container-fluid mx-auto" id="modalBody">
-                  <p id="modalLoadingIndicator">Loading...</p>
-                  <div id="items" class="row text-center"></div>
-                  <table id="table"></table>
-                </div>
-              </div>
-            </div>
-          </div>
 
 
     <script src="./js/axios.min.js"></script>

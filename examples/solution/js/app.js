@@ -1,52 +1,26 @@
 let BASE_URL = 'http://api.football-data.org/v1/'
-let ACTIONS = Object.freeze({
-  'SHOW_COMPETITIONS': 1,
-  'SHOW_TEAMS': 2,
-  'SHOW_FIXTURES': 3
-})
 
 $(document).ready(function () {
-  initCard('competitionsCard', 'Competitions', ACTIONS.SHOW_COMPETITIONS)
-  initCard('fixturesCard', 'Fixtures', ACTIONS.SHOW_FIXTURES)
+  loadCompetitions()
 })
 
-function initCard (id, title, action) {
-  let card = document.getElementById(id)
-  card.addEventListener('click', () => openModal(title, action))
-}
-
-function openModal (title, action) {
-  $('#modal').modal('toggle')
-  $('#modalTitle').html(title)
-  handleAction(action)
-}
-
-function handleAction (action) {
-  switch (action) {
-    case ACTIONS.SHOW_COMPETITIONS:
-      showCompetitions()
-      break
-    case ACTIONS.SHOW_TEAMS:
-      showTeams()
-      break
-    case ACTIONS.SHOW_FIXTURES:
-      showFixtures()
-      break
-    default:
-      alert('Action not supported')
-  }
-}
-
-function showCompetitions () {
-  showData('competitions/?season=2017', 'data', createCardsList(createCompetitionInfoCard))
+function loadCompetitions () {
+  getData('competitions/?season=2017', 'data').then(function (items) {
+    createCardsList(createCompetitionInfoCard, items, 'competitions')
+  })
 }
 
 function showTeams (id, name) {
+  $('#modal').modal('show')
   $('#modalTitle').html(`${name} teams`)
-  showData(`competitions/${id}/teams`, 'teams', createCardsList(createTeamInfoCard))
+
+  getData(`competitions/${id}/teams`, 'teams').then(function (items) {
+    createCardsList(createTeamInfoCard, items, 'items')
+  })
 }
 
 function showLeagueTable (id, name) {
+  $('#modal').modal('show')
   $('#modalTitle').html(`${name} table`)
   let columnData = [
     { data: 'position', title: 'Pos' },
@@ -56,56 +30,55 @@ function showLeagueTable (id, name) {
     { data: 'draws', title: 'Draws' },
     { data: 'losses', title: 'Losses' }
   ]
-  showData(`/competitions/${id}/leagueTable`, 'standing', createTableWithData(columnData))
+
+  getData(`/competitions/${id}/leagueTable`, 'standing').then(function (items) {
+    createTableWithData(columnData, items)
+  })
 }
 
 function showFixtures () {
+  $('#modal').modal('show')
+  $('#modalTitle').html(`Fixtures`)
   let columnData = [
     { data: 'homeTeamName', title: 'Home Team' },
     { data: 'awayTeamName', title: 'Away Team' },
     { data: 'date', title: 'Date' },
     { data: 'status', title: 'Status' }
   ]
-  showData('fixtures/', 'fixtures', createTableWithData(columnData))
+
+  getData('fixtures/', 'fixtues').then(function (items) {
+    createTableWithData(columnData, items)
+  })
 }
 
-function showData (endpoint, property, createFn) {
+function getData (endpoint, property) {
   clearModal()
   showLoadingIndicator()
 
-  request(endpoint)
-  .then(function (response) {
+  return request(endpoint).then((response) => {
     let items = response[property] !== undefined ? response[property] : response.data[property]
-    createFn(items)
-
     hideLoadingIndicator()
+    return items
   }).catch((error) => handleError(error))
 }
 
-function createCardsList (createFn) {
-  return function (items) {
-    let list = document.getElementById('items')
+function createCardsList (createFn, items, parentId) {
+  let list = $(`#${parentId}`)
 
-    for (let item of items) {
-      let itemElement = document.createElement('div')
-      itemElement.innerHTML = createFn(item)
-
-      list.appendChild(itemElement)
-    }
+  for (let item of items) {
+    let itemElement = $('<div>').html(createFn(item))
+    list.append(itemElement)
   }
 }
 
-function createTableWithData (columnData) {
-  return function (data) {
-    let table = document.createElement('table')
-    table.setAttribute('id', 'table')
-    document.getElementById('modalBody').appendChild(table)
+function createTableWithData (columnData, data) {
+  let table = $('<table>').attr('id', 'table')
+  $('#modalBody').append(table)
 
-    $('#table').DataTable({
-      data: data,
-      columns: columnData
-    })
-  }
+  $('#table').DataTable({
+    data: data,
+    columns: columnData
+  })
 }
 
 function createCompetitionInfoCard (competition) {
@@ -114,7 +87,6 @@ function createCompetitionInfoCard (competition) {
       <div class="card" style="width: 18rem; margin-bottom: 10px;">
         <div class="card-body">
           <h5 class="card-title">${competition.caption}</h5>
-          <h6 class="card-subtitle mb-2 text-muted">${competition.league}</h6>
           <div class="btn-group" role="group" aria-label="Basic example">
             <button type="button" class="btn btn-secondary" onClick="return showLeagueTable(${competition.id}, '${competition.caption}')">View table</button>
             <button type="button" class="btn btn-secondary" onClick="showTeams(${competition.id}, '${competition.caption}')">View Teams</button>
@@ -145,13 +117,12 @@ function clearModal () {
 }
 
 function hideLoadingIndicator () {
-  let indicator = document.getElementById('modalLoadingIndicator')
-  indicator.style.display = 'none'
+  $('#modalLoadingIndicator').hide()
+  $('#progressBar').hide()
 }
 
 function showLoadingIndicator () {
-  let indicator = document.getElementById('modalLoadingIndicator')
-  indicator.style.display = 'block'
+  $('#modalLoadingIndicator').show()
 }
 
 function request (endpoint) {
@@ -167,6 +138,7 @@ function request (endpoint) {
 
 function handleError (error) {
   $('#modal').modal('hide')
+  $('#progressBar').hide()
   console.log(error)
   alert('Oops something went wrong. Please try again later :(')
 }
