@@ -1,0 +1,84 @@
+/**********/
+/* jQuery */
+/**********/
+
+//Select an element (return jQuery object)
+$('#element')
+
+//Create a new HTML element
+$('<div>')
+
+//Set attribute of element
+$('#element').attr('id', 'myId')
+
+//Hide an element
+$('#element').hide()
+
+//Show an element
+$('#element').show()
+
+//Show a modal popup
+$('#element').modal('show')
+
+//Set internal html of element
+$('#element').html(`content`)
+
+//Clear contents of element
+$('#element').empty()
+
+//Append an element to another element
+$('#element').append(otherElement)
+
+/**************/
+/* Data Table */
+/**************/
+
+//Create a new DataTable
+let columnData = [
+	{ data: 'fieldName', title: 'My Field' },
+	{ data: 'fieldName2', title: 'My Field 2' }
+]
+
+$('#table').DataTable({
+	data: data,
+	columns: columnData
+})
+
+//Check if an element is a Data Table already
+$.fn.DataTable.isDataTable('#element')
+
+//Destroy an existing Data Table
+$('#element').DataTable().destroy(true)
+
+
+/********/
+/* HTML */
+/********/
+
+//Button which triggers function
+<button type="button" class="btn btn-secondary" onClick="myFunction(myArgument)">Button 
+Description</button>
+
+//Button as anchor
+<a class="btn btn-info" href="#" onClick="myFunction()">Button Description</a>
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Modal Header</h4>
+      </div>
+      <div class="modal-body">
+        <p>Some text in the modal.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>

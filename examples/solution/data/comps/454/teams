@@ -1,0 +1,373 @@
+{
+  "_links": {
+    "self": {
+      "href": "http://api.football-data.org/v1/competitions/444/teams"
+    },
+    "competition": {
+      "href": "http://api.football-data.org/v1/competitions/444"
+    }
+  },
+  "count": 20,
+  "teams": [
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/teams/1783"
+        },
+        "fixtures": {
+          "href": "http://api.football-data.org/v1/teams/1783/fixtures"
+        },
+        "players": {
+          "href": "http://api.football-data.org/v1/teams/1783/players"
+        }
+      },
+      "name": "CR Flamengo",
+      "code": null,
+      "shortName": "Flamengo",
+      "squadMarketValue": null,
+      "crestUrl": "https://upload.wikimedia.org/wikipedia/en/c/c9/Flamengo_logo.svg"
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/teams/1766"
+        },
+        "fixtures": {
+          "href": "http://api.football-data.org/v1/teams/1766/fixtures"
+        },
+        "players": {
+          "href": "http://api.football-data.org/v1/teams/1766/players"
+        }
+      },
+      "name": "Atlético Mineiro",
+      "code": null,
+      "shortName": "Atlético",
+      "squadMarketValue": null,
+      "crestUrl": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/teams/1779"
+        },
+        "fixtures": {
+          "href": "http://api.football-data.org/v1/teams/1779/fixtures"
+        },
+        "players": {
+          "href": "http://api.football-data.org/v1/teams/1779/players"
+        }
+      },
+      "name": "Corinthians",
+      "code": null,
+      "shortName": "Corinthians",
+      "squadMarketValue": null,
+      "crestUrl": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/teams/1772"
+        },
+        "fixtures": {
+          "href": "http://api.football-data.org/v1/teams/1772/fixtures"
+        },
+        "players": {
+          "href": "http://api.football-data.org/v1/teams/1772/players"
+        }
+      },
+      "name": "Chapecoense",
+      "code": null,
+      "shortName": "Chapecoense",
+      "squadMarketValue": null,
+      "crestUrl": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/teams/1765"
+        },
+        "fixtures": {
+          "href": "http://api.football-data.org/v1/teams/1765/fixtures"
+        },
+        "players": {
+          "href": "http://api.football-data.org/v1/teams/1765/players"
+        }
+      },
+      "name": "Fluminense FC",
+      "code": null,
+      "shortName": "Fluminense",
+      "squadMarketValue": null,
+      "crestUrl": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/teams/1774"
+        },
+        "fixtures": {
+          "href": "http://api.football-data.org/v1/teams/1774/fixtures"
+        },
+        "players": {
+          "href": "http://api.football-data.org/v1/teams/1774/players"
+        }
+      },
+      "name": "Santos FC",
+      "code": null,
+      "shortName": "Santos",
+      "squadMarketValue": null,
+      "crestUrl": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/teams/1777"
+        },
+        "fixtures": {
+          "href": "http://api.football-data.org/v1/teams/1777/fixtures"
+        },
+        "players": {
+          "href": "http://api.football-data.org/v1/teams/1777/players"
+        }
+      },
+      "name": "Bahia",
+      "code": null,
+      "shortName": "Bahia",
+      "squadMarketValue": null,
+      "crestUrl": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/teams/1768"
+        },
+        "fixtures": {
+          "href": "http://api.football-data.org/v1/teams/1768/fixtures"
+        },
+        "players": {
+          "href": "http://api.football-data.org/v1/teams/1768/players"
+        }
+      },
+      "name": "Atlético PR",
+      "code": null,
+      "shortName": "Paranaense",
+      "squadMarketValue": null,
+      "crestUrl": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/teams/1781"
+        },
+        "fixtures": {
+          "href": "http://api.football-data.org/v1/teams/1781/fixtures"
+        },
+        "players": {
+          "href": "http://api.football-data.org/v1/teams/1781/players"
+        }
+      },
+      "name": "Ponte Preta",
+      "code": null,
+      "shortName": null,
+      "squadMarketValue": null,
+      "crestUrl": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/teams/1778"
+        },
+        "fixtures": {
+          "href": "http://api.football-data.org/v1/teams/1778/fixtures"
+        },
+        "players": {
+          "href": "http://api.football-data.org/v1/teams/1778/players"
+        }
+      },
+      "name": "Sport Recife",
+      "code": null,
+      "shortName": "Recife",
+      "squadMarketValue": null,
+      "crestUrl": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/teams/1769"
+        },
+        "fixtures": {
+          "href": "http://api.football-data.org/v1/teams/1769/fixtures"
+        },
+        "players": {
+          "href": "http://api.football-data.org/v1/teams/1769/players"
+        }
+      },
+      "name": "Palmeiras",
+      "code": null,
+      "shortName": "Palmeiras",
+      "squadMarketValue": null,
+      "crestUrl": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/teams/1780"
+        },
+        "fixtures": {
+          "href": "http://api.football-data.org/v1/teams/1780/fixtures"
+        },
+        "players": {
+          "href": "http://api.football-data.org/v1/teams/1780/players"
+        }
+      },
+      "name": "Vasco da Gama",
+      "code": null,
+      "shortName": "Vasco da Gama",
+      "squadMarketValue": null,
+      "crestUrl": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/teams/1771"
+        },
+        "fixtures": {
+          "href": "http://api.football-data.org/v1/teams/1771/fixtures"
+        },
+        "players": {
+          "href": "http://api.football-data.org/v1/teams/1771/players"
+        }
+      },
+      "name": "Cruzeiro",
+      "code": null,
+      "shortName": "Cruzeiro",
+      "squadMarketValue": null,
+      "crestUrl": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/teams/1776"
+        },
+        "fixtures": {
+          "href": "http://api.football-data.org/v1/teams/1776/fixtures"
+        },
+        "players": {
+          "href": "http://api.football-data.org/v1/teams/1776/players"
+        }
+      },
+      "name": "Sao Paulo",
+      "code": null,
+      "shortName": "Sao Paulo",
+      "squadMarketValue": null,
+      "crestUrl": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/teams/1775"
+        },
+        "fixtures": {
+          "href": "http://api.football-data.org/v1/teams/1775/fixtures"
+        },
+        "players": {
+          "href": "http://api.football-data.org/v1/teams/1775/players"
+        }
+      },
+      "name": "Avaí SC",
+      "code": null,
+      "shortName": "Avai",
+      "squadMarketValue": null,
+      "crestUrl": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/teams/1782"
+        },
+        "fixtures": {
+          "href": "http://api.football-data.org/v1/teams/1782/fixtures"
+        },
+        "players": {
+          "href": "http://api.football-data.org/v1/teams/1782/players"
+        }
+      },
+      "name": "EC Vitória",
+      "code": null,
+      "shortName": "Vitória",
+      "squadMarketValue": null,
+      "crestUrl": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/teams/1767"
+        },
+        "fixtures": {
+          "href": "http://api.football-data.org/v1/teams/1767/fixtures"
+        },
+        "players": {
+          "href": "http://api.football-data.org/v1/teams/1767/players"
+        }
+      },
+      "name": "Grémio",
+      "code": null,
+      "shortName": "Grémio",
+      "squadMarketValue": null,
+      "crestUrl": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/teams/1770"
+        },
+        "fixtures": {
+          "href": "http://api.football-data.org/v1/teams/1770/fixtures"
+        },
+        "players": {
+          "href": "http://api.football-data.org/v1/teams/1770/players"
+        }
+      },
+      "name": "Botafogo",
+      "code": null,
+      "shortName": "Botafogo",
+      "squadMarketValue": null,
+      "crestUrl": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/teams/1773"
+        },
+        "fixtures": {
+          "href": "http://api.football-data.org/v1/teams/1773/fixtures"
+        },
+        "players": {
+          "href": "http://api.football-data.org/v1/teams/1773/players"
+        }
+      },
+      "name": "Coritiba FC",
+      "code": null,
+      "shortName": null,
+      "squadMarketValue": null,
+      "crestUrl": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/teams/1764"
+        },
+        "fixtures": {
+          "href": "http://api.football-data.org/v1/teams/1764/fixtures"
+        },
+        "players": {
+          "href": "http://api.football-data.org/v1/teams/1764/players"
+        }
+      },
+      "name": "Atlético Goianiense",
+      "code": null,
+      "shortName": "Atlético GO",
+      "squadMarketValue": null,
+      "crestUrl": null
+    }
+  ]
+}

@@ -1,0 +1,813 @@
+{
+  "timeFrameStart": "2018-05-19",
+  "timeFrameEnd": "2018-05-25",
+  "count": 31,
+  "fixtures": [
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/162847"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/455"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/558"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/88"
+        }
+      },
+      "date": "2018-05-19T11:00:00Z",
+      "status": "TIMED",
+      "matchday": 38,
+      "homeTeamName": "RC Celta de Vigo",
+      "awayTeamName": "Levante UD",
+      "result": {
+        "goalsHomeTeam": null,
+        "goalsAwayTeam": null
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/162849"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/455"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/745"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/90"
+        }
+      },
+      "date": "2018-05-19T14:15:00Z",
+      "status": "TIMED",
+      "matchday": 38,
+      "homeTeamName": "CD Leganes",
+      "awayTeamName": "Real Betis",
+      "result": {
+        "goalsHomeTeam": null,
+        "goalsAwayTeam": null
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/162850"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/455"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/84"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/82"
+        }
+      },
+      "date": "2018-05-19T16:30:00Z",
+      "status": "TIMED",
+      "matchday": 38,
+      "homeTeamName": "Málaga CF",
+      "awayTeamName": "Getafe CF",
+      "result": {
+        "goalsHomeTeam": null,
+        "goalsAwayTeam": null
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/162848"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/455"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/275"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/298"
+        }
+      },
+      "date": "2018-05-19T16:30:00Z",
+      "status": "TIMED",
+      "matchday": 38,
+      "homeTeamName": "UD Las Palmas",
+      "awayTeamName": "Girona FC",
+      "result": {
+        "goalsHomeTeam": null,
+        "goalsAwayTeam": null
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/162851"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/455"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/559"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/263"
+        }
+      },
+      "date": "2018-05-19T16:30:00Z",
+      "status": "TIMED",
+      "matchday": 38,
+      "homeTeamName": "Sevilla FC",
+      "awayTeamName": "Deportivo Alavés",
+      "result": {
+        "goalsHomeTeam": null,
+        "goalsAwayTeam": null
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/166841"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/458"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/5"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/19"
+        }
+      },
+      "date": "2018-05-19T18:00:00Z",
+      "status": "TIMED",
+      "matchday": 6,
+      "homeTeamName": "FC Bayern München",
+      "awayTeamName": "Eintracht Frankfurt",
+      "result": {
+        "goalsHomeTeam": null,
+        "goalsAwayTeam": null
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/162853"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/455"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/94"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/86"
+        }
+      },
+      "date": "2018-05-19T18:45:00Z",
+      "status": "TIMED",
+      "matchday": 38,
+      "homeTeamName": "Villarreal CF",
+      "awayTeamName": "Real Madrid CF",
+      "result": {
+        "goalsHomeTeam": null,
+        "goalsAwayTeam": null
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/163532"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/456"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/107"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/586"
+        }
+      },
+      "date": "2018-05-19T18:45:00Z",
+      "status": "TIMED",
+      "matchday": 38,
+      "homeTeamName": "Genoa CFC",
+      "awayTeamName": "Torino FC",
+      "result": {
+        "goalsHomeTeam": null,
+        "goalsAwayTeam": null
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/161289"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/450"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/528"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/532"
+        }
+      },
+      "date": "2018-05-19T19:00:00Z",
+      "status": "TIMED",
+      "matchday": 38,
+      "homeTeamName": "Dijon FCO",
+      "awayTeamName": "Angers SCO",
+      "result": {
+        "goalsHomeTeam": null,
+        "goalsAwayTeam": null
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/161290"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/450"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/545"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/526"
+        }
+      },
+      "date": "2018-05-19T19:00:00Z",
+      "status": "TIMED",
+      "matchday": 38,
+      "homeTeamName": "FC Metz",
+      "awayTeamName": "FC Girondins de Bordeaux",
+      "result": {
+        "goalsHomeTeam": null,
+        "goalsAwayTeam": null
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/161291"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/450"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/543"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/576"
+        }
+      },
+      "date": "2018-05-19T19:00:00Z",
+      "status": "TIMED",
+      "matchday": 38,
+      "homeTeamName": "FC Nantes",
+      "awayTeamName": "RC Strasbourg Alsace",
+      "result": {
+        "goalsHomeTeam": null,
+        "goalsAwayTeam": null
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/161292"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/450"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/523"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/522"
+        }
+      },
+      "date": "2018-05-19T19:00:00Z",
+      "status": "TIMED",
+      "matchday": 38,
+      "homeTeamName": "Olympique Lyonnais",
+      "awayTeamName": "OGC Nice",
+      "result": {
+        "goalsHomeTeam": null,
+        "goalsAwayTeam": null
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/161293"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/450"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/516"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/530"
+        }
+      },
+      "date": "2018-05-19T19:00:00Z",
+      "status": "TIMED",
+      "matchday": 38,
+      "homeTeamName": "Olympique de Marseille",
+      "awayTeamName": "Amiens SC",
+      "result": {
+        "goalsHomeTeam": null,
+        "goalsAwayTeam": null
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/161294"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/450"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/529"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/518"
+        }
+      },
+      "date": "2018-05-19T19:00:00Z",
+      "status": "TIMED",
+      "matchday": 38,
+      "homeTeamName": "Stade Rennais FC",
+      "awayTeamName": "Montpellier Hérault SC",
+      "result": {
+        "goalsHomeTeam": null,
+        "goalsAwayTeam": null
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/161295"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/450"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/527"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/521"
+        }
+      },
+      "date": "2018-05-19T19:00:00Z",
+      "status": "TIMED",
+      "matchday": 38,
+      "homeTeamName": "AS Saint-Étienne",
+      "awayTeamName": "OSC Lille",
+      "result": {
+        "goalsHomeTeam": null,
+        "goalsAwayTeam": null
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/161296"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/450"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/511"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/538"
+        }
+      },
+      "date": "2018-05-19T19:00:00Z",
+      "status": "TIMED",
+      "matchday": 38,
+      "homeTeamName": "Toulouse FC",
+      "awayTeamName": "EA Guingamp",
+      "result": {
+        "goalsHomeTeam": null,
+        "goalsAwayTeam": null
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/161288"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/450"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/514"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/524"
+        }
+      },
+      "date": "2018-05-19T19:00:00Z",
+      "status": "TIMED",
+      "matchday": 38,
+      "homeTeamName": "SM Caen",
+      "awayTeamName": "Paris Saint-Germain",
+      "result": {
+        "goalsHomeTeam": null,
+        "goalsAwayTeam": null
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/161297"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/450"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/531"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/548"
+        }
+      },
+      "date": "2018-05-19T19:00:00Z",
+      "status": "TIMED",
+      "matchday": 38,
+      "homeTeamName": "ES Troyes AC",
+      "awayTeamName": "AS Monaco FC",
+      "result": {
+        "goalsHomeTeam": null,
+        "goalsAwayTeam": null
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/162852"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/455"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/95"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/560"
+        }
+      },
+      "date": "2018-05-20T10:00:00Z",
+      "status": "TIMED",
+      "matchday": 38,
+      "homeTeamName": "Valencia CF",
+      "awayTeamName": "RC Deportivo La Coruna",
+      "result": {
+        "goalsHomeTeam": null,
+        "goalsAwayTeam": null
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/162844"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/455"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/77"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/80"
+        }
+      },
+      "date": "2018-05-20T14:15:00Z",
+      "status": "TIMED",
+      "matchday": 38,
+      "homeTeamName": "Athletic Club",
+      "awayTeamName": "RCD Espanyol",
+      "result": {
+        "goalsHomeTeam": null,
+        "goalsAwayTeam": null
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/163531"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/456"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/106"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/1106"
+        }
+      },
+      "date": "2018-05-20T16:00:00Z",
+      "status": "TIMED",
+      "matchday": 38,
+      "homeTeamName": "AC Chievo Verona",
+      "awayTeamName": "Benevento Calcio",
+      "result": {
+        "goalsHomeTeam": null,
+        "goalsAwayTeam": null
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/163533"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/456"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/109"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/450"
+        }
+      },
+      "date": "2018-05-20T16:00:00Z",
+      "status": "TIMED",
+      "matchday": 38,
+      "homeTeamName": "Juventus Turin",
+      "awayTeamName": "Hellas Verona FC",
+      "result": {
+        "goalsHomeTeam": null,
+        "goalsAwayTeam": null
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/163530"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/456"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/104"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/102"
+        }
+      },
+      "date": "2018-05-20T16:00:00Z",
+      "status": "TIMED",
+      "matchday": 38,
+      "homeTeamName": "Cagliari Calcio",
+      "awayTeamName": "Atalanta BC",
+      "result": {
+        "goalsHomeTeam": null,
+        "goalsAwayTeam": null
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/163536"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/456"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/113"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/472"
+        }
+      },
+      "date": "2018-05-20T16:00:00Z",
+      "status": "TIMED",
+      "matchday": 38,
+      "homeTeamName": "SSC Napoli",
+      "awayTeamName": "FC Crotone",
+      "result": {
+        "goalsHomeTeam": null,
+        "goalsAwayTeam": null
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/163535"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/456"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/98"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/99"
+        }
+      },
+      "date": "2018-05-20T16:00:00Z",
+      "status": "TIMED",
+      "matchday": 38,
+      "homeTeamName": "AC Milan",
+      "awayTeamName": "ACF Fiorentina",
+      "result": {
+        "goalsHomeTeam": null,
+        "goalsAwayTeam": null
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/163538"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/456"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/1107"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/584"
+        }
+      },
+      "date": "2018-05-20T16:00:00Z",
+      "status": "TIMED",
+      "matchday": 38,
+      "homeTeamName": "SPAL Ferrara",
+      "awayTeamName": "UC Sampdoria",
+      "result": {
+        "goalsHomeTeam": null,
+        "goalsAwayTeam": null
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/163539"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/456"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/115"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/103"
+        }
+      },
+      "date": "2018-05-20T16:00:00Z",
+      "status": "TIMED",
+      "matchday": 38,
+      "homeTeamName": "Udinese Calcio",
+      "awayTeamName": "Bologna FC",
+      "result": {
+        "goalsHomeTeam": null,
+        "goalsAwayTeam": null
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/162845"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/455"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/78"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/278"
+        }
+      },
+      "date": "2018-05-20T16:30:00Z",
+      "status": "TIMED",
+      "matchday": 38,
+      "homeTeamName": "Club Atlético de Madrid",
+      "awayTeamName": "SD Eibar",
+      "result": {
+        "goalsHomeTeam": null,
+        "goalsAwayTeam": null
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/162846"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/455"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/81"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/92"
+        }
+      },
+      "date": "2018-05-20T18:45:00Z",
+      "status": "TIMED",
+      "matchday": 38,
+      "homeTeamName": "FC Barcelona",
+      "awayTeamName": "Real Sociedad de Fútbol",
+      "result": {
+        "goalsHomeTeam": null,
+        "goalsAwayTeam": null
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/163534"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/456"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/110"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/108"
+        }
+      },
+      "date": "2018-05-20T18:45:00Z",
+      "status": "TIMED",
+      "matchday": 38,
+      "homeTeamName": "SS Lazio",
+      "awayTeamName": "FC Internazionale Milano",
+      "result": {
+        "goalsHomeTeam": null,
+        "goalsAwayTeam": null
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/163537"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/456"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/471"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/100"
+        }
+      },
+      "date": "2018-05-20T18:45:00Z",
+      "status": "TIMED",
+      "matchday": 38,
+      "homeTeamName": "US Sassuolo Calcio",
+      "awayTeamName": "AS Roma",
+      "result": {
+        "goalsHomeTeam": null,
+        "goalsAwayTeam": null
+      },
+      "odds": null
+    }
+  ]
+}
