@@ -1,11 +1,12 @@
-let BASE_URL = 'http://api.football-data.org/v1/'
+let BASE_URL = '/data/'
+// let BASE_URL = 'http://api.football-data.org/v1/'
 
 $(document).ready(function () {
   loadCompetitions()
 })
 
 function loadCompetitions () {
-  getData('competitions/?season=2017', 'data').then(function (items) {
+  getData('competitions', 'data').then(function (items) {
     createCardsList(createCompetitionInfoCard, items, 'competitions')
   })
 }
@@ -14,7 +15,7 @@ function showTeams (id, name) {
   $('#modal').modal('show')
   $('#modalTitle').html(`${name} teams`)
 
-  getData(`competitions/${id}/teams`, 'teams').then(function (items) {
+  getData(`comps/${id}/teams`, 'teams').then(function (items) {
     createCardsList(createTeamInfoCard, items, 'items')
   })
 }
@@ -31,7 +32,7 @@ function showLeagueTable (id, name) {
     { data: 'losses', title: 'Losses' }
   ]
 
-  getData(`/competitions/${id}/leagueTable`, 'standing').then(function (items) {
+  getData(`/comps/${id}/leagueTable`, 'standing').then(function (items) {
     createTableWithData(columnData, items)
   })
 }
@@ -46,7 +47,7 @@ function showFixtures () {
     { data: 'status', title: 'Status' }
   ]
 
-  getData('fixtures/', 'fixtues').then(function (items) {
+  getData('fixtures', 'fixtures').then(function (items) {
     createTableWithData(columnData, items)
   })
 }
