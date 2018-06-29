@@ -1,3 +1,10 @@
+/*********************************/
+/* Run a HTTP server from Python */
+/*********************************/
+
+python -m SimpleHTTPServer 8080
+(server is now at http://localhost:8080)
+
 /**********/
 /* jQuery */
 /**********/
